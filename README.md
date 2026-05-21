@@ -1,4 +1,4 @@
-# flexpipe-FLU-A
+# flexpipe-InfluenzaA
 
 Nextstrain pipeline for genomic epidemiology of Influenza A virus (H1N1 or H3N2), segments HA and NA. This tool is derived from [flexpipe](https://github.com/InstitutoTodosPelaSaude/flexpipe) and adapted for Influenza A, similarly to how flexpipe-RSV was created for respiratory syncytial virus.
 

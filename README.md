@@ -76,7 +76,6 @@ Local ITpS sequences (in `data/new_sequences.fasta` + `data/new_metadata.tsv`) a
 | `qc.min_coverage` | 0.80 |
 | Required columns | `strain`, `date`, `country`, `clade` |
 
-Sequences with Nextclade status `bad` or coverage below 80% are discarded.
 
 ### Clade truncation
 

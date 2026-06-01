@@ -1,0 +1,199 @@
+field	value	hex_color
+region	Africa	#C5490C
+region	Asia	#A6C50C
+region	Europe	#0CC549
+region	North America	#0C0CC5
+region	Oceania	#A60CC5
+region	South America	#C50C49
+
+country	Botswana	#662200
+country	Cameroon	#B64209
+country	Kenya	#E86D30
+country	Senegal	#EAA887
+country	South Africa	#F5E0D6
+country	China	#556600
+country	Hong Kong	#677B02
+country	India	#788F04
+country	Iran	#89A306
+country	Iraq	#99B609
+country	Israel	#AAC80D
+country	Japan	#B9DB11
+country	Kazakhstan	#C7E919
+country	Kuwait	#CAE830
+country	Malaysia	#CEE847
+country	Qatar	#D2E85D
+country	Saudi Arabia	#D6E972
+country	Singapore	#DAEA87
+country	South Korea	#DFEC9C
+country	Taiwan	#E4EFB0
+country	Thailand	#EAF2C3
+country	Turkey	#F0F5D6
+country	Belgium	#006622
+country	Bulgaria	#038B30
+country	Denmark	#08AD3F
+country	France	#0ECF4E
+country	Germany	#1BE95F
+country	Hungary	#44E87A
+country	Italy	#6BE994
+country	Russia	#91EBAE
+country	Spain	#B4EFC7
+country	United Kingdom	#D6F5E0
+country	Canada	#000066
+country	Guam	#0707A7
+country	Mexico	#1313E2
+country	Nicaragua	#5454E8
+country	Puerto Rico	#9898EC
+country	USA	#D6D6F5
+country	Australia	#8C07A7
+country	New Zealand	#DE98EC
+country	Brazil	#87032F
+country	Chile	#E8306D
+country	Peru	#F0B8CA
+
+division	Gaborone	#662200
+division	Bandjoun	#8B3003
+division	Bertoua	#AD3F08
+division	Buea	#CF4E0E
+division	Douala	#E95F1B
+division	Ebolowa	#E87A44
+division	Foumban	#E9946B
+division	Yaounde	#EBAE91
+division	Kilifi	#EFC7B4
+division		#660022
+division	Beijing	#5F7201
+division	Guangdong-Nanhai	#697E02
+division	Guizhou	#738903
+division	Inner Mongolia	#7D9504
+division	ShanDong	#86A006
+division	Shanghai	#90AB07
+division	Wenzhou	#99B609
+division	Zhejiang	#A3C10B
+division	Karnataka	#ACCB0E
+division	Kerala	#B5D510
+division	Tehran	#BEE013
+division	Baghdad	#C7EA15
+division	Wasit	#C8E923
+division	Aomori	#CAE830
+division	Fukushima	#CCE83D
+division	Okinawa	#CEE84A
+division	Tottori	#D0E857
+division	Ahmadi	#D3E863
+division	Kuala Lumpur	#D5E96F
+division	Selangor	#D8EA7B
+division	Ad-Dawhah	#DAEA87
+division	Riyadh	#DDEB93
+division	Gyeonggi	#E0ED9F
+division	North Jeolla	#E3EEAA
+division	Bangkok	#E6EFB5
+division	Hospital for Tropical Diseases	#E9F1C0
+division	Adana	#EDF3CB
+division	Izmir	#F0F5D6
+division	Auvergne-Rhone-Alpes	#017829
+division	PACA	#03892F
+division	Baden-Wurttemberg	#059936
+division	Bayern	#07AA3D
+division	Hessen	#0ABA44
+division	Nordhein-Westfalen	#0DC94B
+division	Rheinland-Pfalz	#11D953
+division	Friuli-Venezia Giulia	#15E75A
+division	Veneto	#26E966
+division	Birobidzhan	#3AE873
+division	Moscow	#4DE87F
+division	Orenburg	#5FE88C
+division	Penza	#71E998
+division	Veliky Novgorod	#83EAA5
+division	Vladivostok	#94EBB1
+division	Yaroslavl	#A5EDBD
+division	England	#B6EFC9
+division	Northern Ireland	#C6F2D4
+division	Suffolk	#D6F5E0
+division	Toronto	#000066
+division	Yigo	#010171
+division	Campeche	#010176
+division	Coahuila	#02027B
+division	Colima	#020280
+division	Mexico City	#030385
+division	Nuevo Leon	#03038B
+division	Quintana Roo	#040490
+division	Tabasco	#040495
+division	Yucatan	#05059A
+division	San Juan	#06069F
+division	Alabama	#0606A4
+division	Alaska	#0707A9
+division	Arizona	#0808AD
+division	Arkansas	#0909B2
+division	California	#0A0AB7
+division	Colorado	#0A0ABC
+division	Connecticut	#0B0BC1
+division	Delaware	#0C0CC5
+division	District of Columbia	#0D0DCA
+division	Florida	#0E0ECF
+division	Georgia	#1010D3
+division	Hawaii	#1111D8
+division	Idaho	#1212DC
+division	Illinois	#1313E1
+division	Indiana	#1414E5
+division	Iowa	#1515EA
+division	Kentucky	#1B1BE9
+division	Louisiana	#2121E9
+division	MN	#2727E9
+division	Maine	#2D2DE9
+division	Maryland	#3333E8
+division	Massachusetts	#3939E8
+division	Michigan	#3E3EE8
+division	Minnesota	#4444E8
+division	Mississippi	#4A4AE8
+division	Missouri	#5050E8
+division	NC	#5555E8
+division	Nebraska	#5B5BE8
+division	Nevada	#6060E8
+division	New Hampshire	#6666E9
+division	New Jersey	#6B6BE9
+division	New Mexico	#7171E9
+division	New York	#7676E9
+division	North Carolina	#7B7BEA
+division	North Dakota	#8181EA
+division	North_Carolina	#8686EA
+division	Ohio	#8B8BEB
+division	Oklahoma	#9191EB
+division	Oregon	#9696EC
+division	Pennsylvania	#9B9BEC
+division	Rhode Island	#A0A0ED
+division	South Carolina	#A5A5ED
+division	South Dakota	#AAAAEE
+division	Tennessee	#AFAFEF
+division	Texas	#B4B4EF
+division	Utah	#B9B9F0
+division	Vermont	#BEBEF1
+division	Virginia	#C3C3F1
+division	WA	#C8C8F2
+division	Washington	#CDCDF3
+division	West Virginia	#D1D1F4
+division	Wisconsin	#D6D6F5
+division	Brisbane	#550066
+division	New South Wales	#9909B6
+division	Sydney	#CA30E8
+division	Victoria	#DA87EA
+division	Amazonas	#C50C49
+division	Rio de Janeiro	#E85484
+division	Sao Paulo	#F0B8CA
+
+location		#87032F
+location	Hulunbuir	#839C05
+location	Ningbo	#AFCF0E
+location	Alkarkh	#CAE830
+location	Al-Hai	#D4E96B
+location	Numaniyah	#E1EDA3
+location	Bangkok	#F0F5D6
+location	Var, Toulon	#98ECB3
+location	Monterrey	#05059C
+location	Maricopa County, Tempe	#0E0ECF
+location	Los Angeles County	#3030E8
+location	San Diego	#6B6BE9
+location	King County	#A3A3ED
+location	Snohomish County	#D6D6F5
+location	Queensland	#710387
+location	Sydney	#CA30E8
+location	Manaus	#E8306D
+location	Rio de Janeiro	#F0B8CA
+

@@ -1,0 +1,36 @@
+field	value	hex_color
+clade_truncated	A	#C50C0C
+clade_truncated	B	#C5690C
+clade_truncated	C	#C5C50C
+clade_truncated	C.1	#69C50C
+clade_truncated	D	#0CC50C
+clade_truncated	D.1	#0CC569
+clade_truncated	D.2	#0CC5C5
+clade_truncated	D.3	#0C69C5
+clade_truncated	D.4	#0C0CC5
+clade_truncated	D.5	#690CC5
+
+clade	A	#C50C0C
+clade	B	#C5690C
+clade	C	#C5C50C
+clade	C.1	#336600
+clade	C.1.1	#438402
+clade	C.1.2	#54A106
+clade	C.1.4	#64BD0B
+clade	C.1.5	#75D711
+clade	C.1.7.2	#86E91F
+clade	C.1.8	#96E841
+clade	C.1.9	#A6E861
+clade	C.1.9.1	#B6EA80
+clade	C.1.9.2	#C6EC9E
+clade	C.1.9.3	#D6F0BA
+clade	C.1.9.4	#E6F5D6
+clade	D	#0CC50C
+clade	D.1	#0CC569
+clade	D.2	#0CC5C5
+clade	D.3	#034587
+clade	D.3.1	#308EE8
+clade	D.3.1.1	#B8D4F0
+clade	D.4	#0C0CC5
+clade	D.5	#690CC5
+

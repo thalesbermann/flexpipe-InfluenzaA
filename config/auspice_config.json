@@ -1,0 +1,95 @@
+{
+  "title": "Influenza A - H1N1 (HA)",
+
+  "data_provenance": [
+    {
+      "name": "NCBI Virus / GenBank",
+      "url": "https://www.ncbi.nlm.nih.gov/labs/virus/vssi/"
+    }
+  ],
+
+  "build_url": "https://github.com/InstitutoTodosPelaSaude/flexpipe",
+
+  "maintainers": [
+    {
+      "name": "Thales Bermann",
+      "url": "https://github.com/thalesbermann"
+    }
+  ],
+
+  "colorings": [
+    {
+      "key": "clade",
+      "title": "Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Division",
+      "type": "categorical"
+    },
+    {
+      "key": "location",
+      "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "source",
+      "title": "Source",
+      "type": "categorical"
+    },
+    {
+      "key": "data_use",
+      "title": "Data Use Term",
+      "type": "categorical"
+    }
+  ],
+
+  "geo_resolutions": [
+    "country",
+    "division",
+    "location"
+  ],
+
+  "display_defaults": {
+    "color_by": "clade",
+    "distance_measure": "num_date",
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "branch_label": "clade"
+  },
+
+  "filters": [
+    "country",
+    "division",
+    "location",
+    "author",
+    "host",
+    "clade",
+    "source",
+    "Originating Lab",
+    "Submitting Lab",
+    "data_use"
+  ],
+
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

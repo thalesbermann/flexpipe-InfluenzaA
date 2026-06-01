@@ -1,0 +1,37 @@
+category	hue
+
+# geo (top-level = region)
+Africa	20
+Asia	70
+Europe	140
+North America	240
+Oceania	290
+South America	340
+
+# clade (top-level = clade_truncated) — unknown = hash-based
+A	0
+B	30
+C	60
+C.1	90
+D	120
+D.1	150
+D.2	180
+D.3	210
+D.4	240
+D.5	270
+
+# host
+avian	60
+domestic turkey	0
+ferret	150
+giant anteater	240
+human	200
+swine	40
+
+# source
+ITpS	90
+NCBI	200
+
+# data_use
+OPEN	200
+RESTRICTED	0

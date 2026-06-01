@@ -1,0 +1,34 @@
+# Subsampling configuration for Influenza A H1N1 (NA)
+#
+# focal   : ITpS surveillance + all Brazil sequences — kept in full
+# context : NCBI sequences outside Brazil — subsampled by country/year/clade_truncated
+#
+# min_date 2015 alinhado com início da vigilância do H1N1pdm pós-pandemia
+
+defaults:
+  min_date: 2015
+  exclude: config/ignore.txt
+
+samples:
+  focal_itps:
+    query: "source == 'ITpS'"
+    include: config/keep.txt
+
+  focal_brazil:
+    query: "country == 'Brazil' and source != 'ITpS'"
+    exclude_where:
+      - "clade_truncated=unassigned"
+
+  context:
+    exclude_where:
+      - "source=ITpS"
+      - "country=Brazil"
+      - "country="
+      - "clade_truncated="
+      - "clade_truncated=unassigned"
+      - "date="
+    group_by:
+      - country
+      - year
+      - clade_truncated
+    sequences_per_group: 15

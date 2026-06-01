@@ -1,0 +1,86 @@
+files:
+  keep:          "config/keep.txt"
+  ignore:        "config/ignore.txt"
+  cache:         "config/cache_coordinates.tsv"
+  reference:     "config/reference.gb"
+  clades:        "config/clades.tsv"
+  auspice_config: "config/auspice_config.json"
+
+parameters:
+  mask_5prime: 1
+  mask_3prime: 1
+  mask_sites: "1"
+  ufboot: 1000
+  model: "MFP"
+  root: "least-squares"
+  coalescent: "skyline"
+  date_inference: "marginal"
+  divergence_units: "mutations"
+  clock_filter_iqd: 4
+  ancestral_inference: "joint"
+
+options:
+  threads: 8
+
+coordinates:
+  columns: "country division location"
+
+colours:
+  clade: "clade_truncated clade"
+  geo: "region country division location"
+  host: "host"
+  source: "source"
+  data_use: "data_use"
+
+traits:
+  columns: "country division location clade"
+
+subsampling:
+  random_seed: 42
+
+curation:
+  clade_levels: 2          # H1N1 HA: D.3.1.1 → D.3
+  clade_separator: "."
+
+# ── Fonte de dados remota ────────────────────────────────────────────────────
+data_source: "ncbi"
+
+pathoplexus:
+  organism: "flu-a-h1n1"        # placeholder — flu não está no Pathoplexus
+  base_url: "https://lapis.pathoplexus.org"
+  metadata_endpoint: "details"
+  sequences_endpoint: "unalignedNucleotideSequences"
+  min_completeness: 0.80
+
+ncbi:
+  taxid: 11320                   # Influenza A virus (txid11320)
+  genome_size: 1752              # H1N1 HA (CY121680)
+  min_length: 0.80               # 1402 bp
+  max_length: 1.10               # 1927 bp
+  extra_search_term: "H1N1 hemagglutinin"
+  min_date: "2015-01-01"
+  email: ""
+  api_key: ""
+
+nextclade:
+  dataset: "/home/thales/datasets/flu-h1n1-ha-CY121680"
+  conda_env: "viralQC"
+  clade_column: "clade"
+  expected_virus: "Influenza A H1N1"
+  expected_segment: "HA"
+
+qc:
+  nextclade_status:
+    - "good"
+    - "mediocre"
+  min_coverage: 0.80
+  required_columns:
+    - "strain"
+    - "date"
+    - "country"
+    - "clade"
+
+local_sequences:
+  enabled: true
+  metadata: "data/new_metadata.tsv"
+  sequences: "data/new_sequences.fasta"

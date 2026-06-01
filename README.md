@@ -12,14 +12,13 @@ To run this pipeline, see the instructions available in the original [flexpipe r
 
 ## Builds
 
-| Build | Segment | Subtype | Reference | Nextclade dataset |
+| Build | Segment | Subtype | Reference | Nextclade / ViralQC dataset |
 |-------|---------|---------|-----------|-------------------|
 | H1N1_HA | HA | H1N1 | CY121680 | `flu-h1n1-ha-CY121680` |
 | H1N1_NA | NA | H1N1 | — | `flu-h1n1-na` |
 | H3N2_HA | HA | H3N2 | NC_007366 | `flu-h3n2-ha-EPI1857216` |
 | H3N2_NA | NA | H3N2 | — | `flu-h3n2-na` |
 
-Each build lives in its own subdirectory with independent `config/`, `data/`, `ingest/`, `phylogenetic/`, and `scripts/` folders.
 
 ---
 
@@ -28,7 +27,7 @@ Each build lives in its own subdirectory with independent `config/`, `data/`, `i
 ```
 fetch_ncbi
     └── merge_local_sequences  (ITpS sequences + NCBI)
-            └── viralqc        (Nextclade QC + clade assignment)
+            └── viralqc        (BLAST + Nextclade QC + clade assignment)
                     └── curate_qc  (normalisation, dedup, filters)
                             └── prepare  (subsampling)
                                     ├── coordinates  (geocoding → latlongs.tsv)
@@ -73,7 +72,7 @@ Local ITpS sequences (in `data/new_sequences.fasta` + `data/new_metadata.tsv`) a
 
 | Parameter | Value |
 |-----------|-------|
-| `qc.nextclade_status` | `good`, `mediocre` |
+| `qc.genome_quality` | `A`, `B` (grades C and D discarded) |
 | `qc.min_coverage` | 0.80 |
 | Required columns | `strain`, `date`, `country`, `clade` |
 
